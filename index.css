@@ -209,10 +209,6 @@ footer .contact-info img{
 /*media querie*/
 
 @media (min-width: 720px){
-    nav{
-        position: fixed;
-    }
-
     ul{
         flex-direction: row;
         align-items: center;
@@ -271,12 +267,18 @@ footer .contact-info img{
         font-size: 2.75rem;
         padding: 0;
         margin: 0;
-        margin-top: 5px;
+        margin-top: 20px;
     }
 
     div.intro{
         font-size: 2.25rem;
         margin: 0;
+    }
+
+    section{
+        margin: 0;
+        margin-bottom: 50px;
+        padding: 0;
     }
 
     section.presentation div{

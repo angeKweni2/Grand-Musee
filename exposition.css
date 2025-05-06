@@ -189,16 +189,14 @@ footer .contact-info{
     padding: 0;
 }
 
+/*les medias queries*/
+
 footer .contact-info img{
     margin: 0;
     padding: 0;
 }
 
 @media (min-width: 720px){
-    nav{
-        position: fixed;
-    }
-
     ul{
         flex-direction: row;
         align-items: center;
