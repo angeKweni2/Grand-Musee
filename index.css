@@ -67,20 +67,24 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: -50px;
-    background-color: #e8d9d8;
+    background-color: #fff;
     color: #5e0f17;
 }
 
-section.presentation{
+p{
+    margin: 2px;
+    padding: 2px; 
+}
+
+section{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 
 h2{
-    margin: 0;
+    margin: 0, 0, 10px, 0;
 }
 
 div.intro{
@@ -92,15 +96,60 @@ section.presentation div{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    color: #000;
+    margin-top: 10px;
 }
+
+button{
+    background-color: #bfa5a3;
+    border: none;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+section.expositions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #faf6f6;
+    width: 100%;
+    margin: 20px 0;
+    padding: 0;
+}   
 
 div a{
     display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
     text-decoration: none;
     color: #5e0f17;
     padding: 10px;
 }
+
+div a img{
+    width: 80%;
+    height: 130px;
+}
+
+.partenaires div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.partenaires div img{
+    width: 80%;
+    height: 130px;
+}
+
 
 
 
