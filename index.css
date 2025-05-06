@@ -26,11 +26,13 @@ nav{
     padding: 0;
     margin: 0;
     width: 100%;
+    height: auto;
 }
 
 div img{
     width: 200px;
     height: 50px;
+    margin: 5px 0;
 }
 
 ul{
@@ -148,6 +150,167 @@ div a img{
 .partenaires div img{
     width: 80%;
     height: 130px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5e0f17;
+    color: #bfa5a3;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer div{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer .social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #bfa5a3;
+    color: #5e0f17;
+}   
+
+footer .social-media a{
+    display: block;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    color: #5e0f17;
+}
+
+footer .social-media img{
+    width: 80%;
+    height: 30px;
+}
+
+footer .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e0f17;
+    margin: 20px 0;
+    padding: 0;
+}
+
+footer .contact-info img{
+    margin: 0;
+    padding: 0;
+}
+
+/*media querie*/
+
+@media (min-width: 720px){
+    nav{
+        position: fixed;
+    }
+
+    ul{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .expositions div{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .expositions div a{
+        width: 45%;
+    }
+
+    .partenaires{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .partenaires div{
+        width: 45%;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer .social-media{
+        justify-content: center;
+    } 
+
+}
+
+@media (min-width: 1024px){
+    body {
+        font-size: 1.25rem;
+    }
+
+    div a img{
+        height: 180px;
+    }
+
+    section.presentation{
+        display: inline;
+        column-count: 2;
+        column-gap: 20px;
+        column-rule-width: 1px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 2.75rem;
+        padding: 0;
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    div.intro{
+        font-size: 2.25rem;
+        margin: 0;
+    }
+
+    section.presentation div{
+        margin: 0;
+        padding: 0;
+    }
+
+    .expositions div a{
+        width: 46%;
+    }
+
+    button{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .partenaires div{
+        width: 48%;
+    }
+
+    .partenaires div img{
+        height: 180px;
+    }
+    
+}
+
+@media (min-width: 1220px){
+    h1{
+        font-size: 3rem;
+    }
+
+    div.intro{
+        font-size: 2.6rem;
+    } 
 }
 
 

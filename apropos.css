@@ -60,3 +60,62 @@ a{
     text-decoration: none;
     color: #bfa5a3;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5e0f17;
+    color: #bfa5a3;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer div{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+footer .social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #bfa5a3;
+    color: #5e0f17;
+}   
+
+footer .social-media a{
+    display: block;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+    color: #5e0f17;
+}
+
+footer .social-media img{
+    width: 80%;
+    height: 30px;
+}
+
+footer .contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5e0f17;
+    margin: 20px 0;
+    padding: 0;
+}
+
+footer .contact-info img{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
