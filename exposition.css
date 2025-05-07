@@ -144,6 +144,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-color: #5e0f17;
     color: #bfa5a3;
     padding: 0;
@@ -214,10 +215,6 @@ footer .contact-info img{
     figure img{
         width: 80%;
         height: 150px;
-    }
-
-    footer{
-        text-align: center;
     }
 
     footer .social-media{

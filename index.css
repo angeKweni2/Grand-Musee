@@ -152,6 +152,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-color: #5e0f17;
     color: #bfa5a3;
     padding: 0;
@@ -229,10 +230,6 @@ footer .contact-info img{
 
     .partenaires div{
         width: 45%;
-    }
-
-    footer{
-        text-align: center;
     }
 
     footer .social-media{

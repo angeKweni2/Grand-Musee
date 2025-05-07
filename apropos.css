@@ -93,6 +93,13 @@ section.wireframe div{
     margin: 0;
 }
 
+section.wireframe div img{
+    width: 90%;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+}
+
 section.presentation{
     display: flex;
     flex-direction: column;
@@ -125,6 +132,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     background-color: #5e0f17;
     color: #bfa5a3;
     padding: 0;
@@ -183,8 +191,16 @@ footer .contact-info img{
         align-items: center;
     }
 
-    footer{
-        text-align: center;
+    section.wireframe div{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.wireframe div img{
+        width: 45%;
+        
     }
 
     footer .social-media{
