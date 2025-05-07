@@ -96,6 +96,7 @@ section.presentation div{
     align-items: center;
     color: #000;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 button{
@@ -129,8 +130,8 @@ div a{
 }
 
 div a img{
-    width: 80%;
-    height: 130px;
+    width: 82%;
+    height: 150px;
 }
 
 .partenaires div {
@@ -244,7 +245,7 @@ footer .contact-info img{
     }
 
     div a img{
-        height: 180px;
+        height: 200px;
     }
 
     section.presentation{
